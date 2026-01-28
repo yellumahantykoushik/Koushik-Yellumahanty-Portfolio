@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Koushik Yellumahanty | Engineering Portfolio</title>
+
+  <style>
+    :root {
+      --bg-dark: #020617;
+      --bg-light: #f8fafc;
+      --text-main: #1f2937;
+      --text-muted: #475569;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-main);
+      line-height: 1.65;
+    }
+
+    header {
+      background: var(--bg-dark);
+      color: white;
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0.6rem;
+    }
+
+    header p {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.15rem;
+      color: #cbd5f5;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 2rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1.6rem 1.8rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      margin-bottom: 0.25rem;
+      font-size: 1.3rem;
+      color: #020617;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.8rem;
+    }
+
+    ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    .skills {
+      font-size: 0.95rem;
+      color: #0f172a;
+      background: #f1f5f9;
+      padding: 0.6rem 0.8rem;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: var(--bg-dark);
+      color: #cbd5f5;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.1rem;
+      }
+
+      section {
+        padding: 2.2rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Koushik Yellumahanty</h1>
+  <p>
+    Mechanical & Aerospace Engineer with experience in aerospace structures,
+    UAV systems, avionics integration, and simulation-driven mechanical design.
+  </p>
+</header>
+
+<section>
+  <h2>Experience & Projects</h2>
+
+  <div class="project">
+    <h3>Avionics Integration & Mount Assembly — Boeing AH-64 Apache</h3>
+    <div class="meta">Arizona State University | Boeing</div>
+    <ul>
+      <li>Designed and prototyped avionics mounting assemblies emphasizing durability and manufacturability.</li>
+      <li>Performed structural FEA to validate designs against operational loads and MIL-STD requirements.</li>
+      <li>Applied GD&T and tolerance stack-ups to production-ready drawings.</li>
+      <li>Participated in formal design reviews with Boeing engineers.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> SolidWorks, ANSYS, FEA, GD&T, Aerospace Structures</div>
+  </div>
+
+  <div class="project">
+    <h3>CubeSat Reaction Wheel & Magnetorquer Mounting System</h3>
+    <div class="meta">San José State University | NASA AMES TechEdSat</div>
+    <ul>
+      <li>Led mechanical design of a 1U CubeSat attitude control mounting system.</li>
+      <li>Performed thermal, modal, and nonlinear structural FEA.</li>
+      <li>Improved PCB integration and component packaging reliability.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> SolidWorks, SolidWorks Simulation, FEA, CubeSat Design</div>
+  </div>
+
+  <div class="project">
+    <h3>Embedded Machine Learning for Agricultural Decision Support</h3>
+    <div class="meta">SolarSPELL — Rwanda Agricultural Initiative</div>
+    <ul>
+      <li>Developed a KNN machine learning model achieving 95.34% classification accuracy.</li>
+      <li>Deployed embedded ML on an ESP32 using TensorFlow Lite.</li>
+      <li>Designed a solar-powered, offline sensing architecture for low-resource environments.</li>
+      <li>Projected to improve coffee crop yields by 10–15%.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> Python, TensorFlow Lite, ESP32, Embedded Systems, Machine Learning, System Architecture</div>
+  </div>
+
+  <div class="project">
+    <h3>Simulation-Based Design of Micro/Nano Supercapacitor Electrodes</h3>
+    <div class="meta">Micro/Nano Additive Manufacturing Research</div>
+    <ul>
+      <li>Developed a physics-based simulation framework isolating geometry and material effects.</li>
+      <li>Modeled planar and interdigitated electrodes using electrostatic solvers.</li>
+      <li>Demonstrated ~3× capacitance improvement driven by geometry.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> ANSYS Maxwell, Multiphysics Simulation, Electrostatics, Energy Storage Modeling</div>
+
+  </div>
+
+
+  <!-- ================= NAVSHIP ================= -->
+  <div class="project">
+    <h3>NAVSHIP Ultrasonic NDT Simulation & Signal Processing</h3>
+    <div class="meta">Nondestructive Testing Project</div>
+    <ul>
+      <li>Simulated ultrasonic beam propagation and flaw detection.</li>
+      <li>Analyzed A-scan and B-scan data to evaluate time-of-flight and attenuation.</li>
+      <li>Developed MATLAB scripts for automated signal processing.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> CIVA, MATLAB, Ultrasonic Testing, Signal Processing, NDT</div>
+
+  </div>
+
+  <!-- ================= DSC CIVA ================= -->
+  <div class="project">
+    <h3>CIVA Ultrasonic Simulation — Depth & Angle Effects</h3>
+    <div class="meta">DSC Simulation Project</div>
+    <ul>
+      <li>Evaluated ultrasonic response across multiple probe angles.</li>
+      <li>Computed defect depth using time-of-flight and shear-wave velocity models.</li>
+      <li>Compared SDH and back-wall echo amplitudes.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> CIVA, Ultrasonics, Wave Propagation, Data Analysis</div>
+  </div>
+
+
+  <div class="project">
+    <h3>ARES UAV Drone — Chassis & Arm-Loading System</h3>
+    <div class="meta">Feb 2022 – Jun 2022</div>
+    <ul>
+      <li>Designed UAV chassis and arm-loading system using truss-based structures.</li>
+      <li>Performed stress, thermal, and vibration FEA.</li>
+      <li>Supported MBSE, N² diagrams, CONOPS, and formal design reviews.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> SolidWorks, Creo, FEA, UAV Design, MBSE</div>
+  </div>
+
+  <div class="project">
+    <h3>Wing Design & Aerodynamic Optimization</h3>
+    <div class="meta">Aug 2023 – Dec 2023</div>
+    <ul>
+      <li>Designed aerodynamically efficient aircraft wings to improve lift.</li>
+      <li>Optimized wing geometry using CAD-based simulation.</li>
+      <li>Validated results through wind tunnel testing.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> SolidWorks, FEA, Aerodynamics, Wind Tunnel Testing</div>
+  </div>
+
+  <div class="project">
+    <h3>Rocket Design & Structural Analysis</h3>
+    <div class="meta">Jan 2023 – May 2023</div>
+    <ul>
+      <li>Performed stress and vibration FEA on rocket assemblies.</li>
+      <li>Computed theoretical rocket trajectory using MATLAB and Excel.</li>
+      <li>Led trade studies to identify structural vulnerabilities.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> AutoCAD, MATLAB, Microsoft Excel, FEA</div>
+  </div>
+
+  <div class="project">
+    <h3>Formula SAE–Style Vehicle Design & Simulation</h3>
+    <div class="meta">Independent Engineering Project</div>
+    <ul>
+      <li>Designed open-wheel race car subsystems including suspension and chassis interfaces.</li>
+      <li>Derived realistic load cases from vehicle dynamics assumptions.</li>
+      <li>Performed structural FEA and CFD simulations.</li>
+    </ul>
+    <div class="skills"><strong>Skills/Software Used:</strong> SolidWorks, ANSYS, FEA, CFD, Vehicle Dynamics</div> 
+  </div>
+
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+
+  <div class="contact-card">
+    <p><strong>Email:</strong> <a href="mailto:yellumahantykoushik@gmail.com">yellumahantykoushik@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> 
+      <a href="www.linkedin.com/in/koushik-yellumahanty" target="_blank">
+        linkedin.com/in/koushik-yellumahanty
+      </a>
+    </p>
+  </div>
+</section>
+
+
+<footer>
+  © 2026 Koushik Yellumahanty — Engineering Portfolio
+</footer>
+
+</body>
+</html>
